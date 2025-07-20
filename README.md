@@ -2,11 +2,6 @@
 
 A modern, full-stack financial management application that helps users track their income, expenses, and analyze spending patterns through an intuitive interface with beautiful animations.
 
-![Typeface Finance Tracker](https://img.shields.io/badge/React-18.2.0-blue)
-![Typeface Finance Tracker](https://img.shields.io/badge/Node.js-18+-green)
-![Typeface Finance Tracker](https://img.shields.io/badge/MongoDB-6.0+-orange)
-![Typeface Finance Tracker](https://img.shields.io/badge/Tailwind-3.3+-cyan)
-
 ## ✨ Features
 
 ### 🎯 Core Functionality
@@ -18,7 +13,6 @@ A modern, full-stack financial management application that helps users track the
 
 ### 🎨 User Interface
 - **Modern Design**: Clean, minimal interface with beautiful animations
-- **Responsive Layout**: Works seamlessly on desktop, tablet, and mobile
 - **Interactive Elements**: Hover effects, smooth transitions, and loading states
 - **Beautiful Animations**: Bounce-in, slide-up, float, pulse, and scale animations
 - **Professional Typography**: Inter font for excellent readability
@@ -57,11 +51,6 @@ A modern, full-stack financial management application that helps users track the
 - **pdfjs-dist** - PDF text extraction
 - **CORS** - Cross-origin resource sharing
 
-### Development Tools
-- **ESLint** - Code linting
-- **Prettier** - Code formatting
-- **Nodemon** - Development server with auto-restart
-
 ## 📋 Prerequisites
 
 Before running this project, make sure you have the following installed:
@@ -75,7 +64,7 @@ Before running this project, make sure you have the following installed:
 ### 1. Clone the Repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/tarun8865/finance_assistant
 cd finance_assistant
 ```
 
@@ -259,32 +248,6 @@ finance_assistant/
 ### File Upload
 - `POST /api/upload` - Upload receipt/PDF for processing
 
-## 🎨 Animation System
-
-The application features a comprehensive animation system:
-
-### Animation Types
-- **Bounce In**: Cards and forms entrance
-- **Slide Up/Down/Left/Right**: Staggered content animations
-- **Scale In**: Success messages and content
-- **Float**: Gentle icon floating
-- **Pulse**: Loading states and icons
-- **Shake**: Error message attention
-- **Rotate**: Spinners and loading
-- **Glow**: Interactive element highlights
-- **Shimmer**: Loading effects
-- **Heartbeat**: Important element emphasis
-
-### Animation Features
-- Smooth 300ms transitions
-- Staggered delays for sequential effects
-- Hover effects with scale and shadow
-- Active states with scale down
-- Focus states with ring effects
-- Loading states with pulse and spin
-- Error states with shake animation
-- Success states with scale-in animation
-
 ## 🔒 Security Features
 
 - **JWT Authentication**: Secure token-based authentication
@@ -294,70 +257,27 @@ The application features a comprehensive animation system:
 - **File Upload Security**: Secure file processing
 - **Environment Variables**: Sensitive data protection
 
-## 🚀 Deployment
-
-### Backend Deployment (Heroku)
-```bash
-cd backend
-heroku create your-app-name
-heroku config:set MONGODB_URI=your_mongodb_atlas_uri
-heroku config:set JWT_SECRET=your_jwt_secret
-git push heroku main
-```
-
-### Frontend Deployment (Vercel)
-```bash
-cd frontend
-vercel --prod
-```
-
 ## 🐛 Troubleshooting
 
 ### Common Issues
 
 1. **MongoDB Connection Error**
    - Ensure MongoDB is running
-   - Check MONGODB_URI in .env file
+   - Check MONGO in .env file
    - Verify network connectivity
 
 2. **Port Already in Use**
    - Change PORT in backend .env file
    - Kill existing processes on the port
 
-3. **CORS Errors**
-   - Verify API_URL in frontend .env
-   - Check backend CORS configuration
-
-4. **File Upload Issues**
+3. **File Upload Issues**
    - Ensure file size is within limits
    - Check file format (PDF, JPG, PNG)
    - Verify GridFS configuration
 
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## 👨‍💻 Author
 
 **Tarun Kumar**
-- GitHub: [@tarunkumar](https://github.com/tarunkumar)
-- LinkedIn: [Tarun Kumar](https://linkedin.com/in/tarunkumar)
-
-## 🙏 Acknowledgments
-
-- React team for the amazing framework
-- Tailwind CSS for the utility-first approach
-- Chart.js for beautiful data visualization
-- MongoDB team for the robust database
-- All contributors and supporters
 
 ---
 

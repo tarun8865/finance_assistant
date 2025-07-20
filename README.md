@@ -1,6 +1,9 @@
-# 💰 Finance Tracker
+# 💰 Finance Assistant
 
 A modern, full-stack financial management application that helps users track their income, expenses, and analyze spending patterns through an intuitive interface with beautiful animations.
+
+## Demo video drive link
+https://drive.google.com/drive/folders/1uGp6kusEzTti6wl0e7Ogyzu_O8kO4EL3?usp=drive_link
 
 ## ✨ Features
 
